@@ -1,0 +1,112 @@
+<html>
+  <head> 
+    <h1 id="title" class=" text- center">ArtPrint  </h1>
+    <h2 id="comunicação" class="text-center2">Serviço Express de Comunicação Visual </h2>
+    
+  </head>
+  <body >
+    <div class="container">
+    <header class="header">
+    <p id="description" class="description text-center"> 
+Questionário</p>
+    </header>
+        <form id="survey-form">
+        <div class="form-group">
+        <label id="name-label" for="name">Nome </label>
+        <input type="text" name="name"  id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+<div class="form-group">
+        <label id="email-label" for="email">Email </label>
+        <input type="email" name="email"  id="email"  class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+        <label id="number-label" for="number">Idade<span class="clue">(opcional)</span></label
+      > </label>
+        <input type="number" name="number" id="number" min="8" max="99" class="form-control" placeholder="age">
+        </div>
+          <div class="form-group">
+      <p>Qual opção descreve melhor sua função em ArtPrint?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Selecione a função</option>
+        <option value="Funcionario">Funcionario</option>
+        <option value="cliente">cliente</option>
+        <option value="Fornecedor">Fornecedor</option>
+        <option value="outros">Outros</option>
+        
+      </select>
+              
+            </div>
+    <div class="form-group">
+      <p> Você recomendaria a ArtPrint para alguem?</p>
+      <label>
+        <input type="radio" name="recomendaria" class="input-radio" value="Sim" checked/>Sim</label>
+    
+      <label>
+        <input type="radio" name="recomendaria" class="input-radio" value=" não"/> Não</label>
+    
+      <label>
+        <input type="radio" name="recomendaria" class="input-radio" value="tal vez" /> tal vez</label>
+          
+        </div>
+      
+      <div class="form-group">
+      <p>Qual método você usou para comprar o produto / serviço?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Selecione o método</option>
+        <option value="Correio">Pelo Correio</option>
+        <option value="Internet">Internet</option>
+        <option value="Telefone">Por Telefone</option>
+        <option value="Loja">Na Loja</option>
+        <option value="Outros">Outros</option>
+      </select>
+        </div>
+              
+       <div class="form-group">
+        <p>Qual dos serviços da ArtPrint você usa com maior frequência?<span class="dica" >
+(Marque todas as opções aplicáveis)</span></p>
+        <div class="form-group">
+        <label>
+          <input name="Adesivos" type="checkbox" value="Adesivos" class="input-checkbox"/>Adesivos
+        </label>
+      <label>
+          <input name="Banners e Display" type="checkbox" value="Banners e Display" class="input-checkbox"/> Banners e Display
+        </label>
+          <label>
+          <input name="Grandes Formatos" type="checkbox" value="Grandes Formatos" class="input-checkbox"/> Grandes Formatos
+        </label>
+          <label>
+          <input name="Placas PS" type="checkbox" value="Placas PS" class="input-checkbox"/> Placas PS
+        </label>
+          <label>
+          <input name="Faixas" type="checkbox" value="Faixas" class="input-checkbox"/>Faixas
+        </label>
+          <label>
+          <input name="Pôsteres" type="checkbox" value="Pôsteres" class="input-checkbox"/> Pôsteres
+        </label>
+          <label>
+          <input name="Impressão em tecido" type="checkbox" value="Impressão em tecido" class="input-checkbox"/> Impressão em tecido
+        </label>
+          <label>
+          <input name="Recortes Digitais" type="checkbox" value="Recortes Digitais" class="input-checkbox"/> Recortes Digitais
+        </label>
+          <label>
+          <input name="Adesivos em Placas" type="checkbox" value="Adesivos em Placas" class="input-checkbox"/> Adesivos em Placas
+        </label>
+          <label>
+          <input name="Projetos Especiais" type="checkbox" value="Projetos Especiais" class="input-checkbox"/> Projetos Especiais
+        </label>
+      
+    </div>
+      <div class="form-group">
+        <p> Algum comentário ou sugestão?</p>
+       <textarea id="comentários" class="input-textarea" name="comentarios" placeholder="Enter your comment here..."></textarea>
+        
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">enviar</button>
+      </div>
+      
+      </form>
+    </div>
+    </body>
+</html>
